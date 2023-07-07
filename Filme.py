@@ -69,5 +69,9 @@ vingadores.dar_like()
 filmes_e_series = [vingadores, atlanta, demolidor, tmep]
 playlist_fim_de_semana = Playlist('Fim de semana', filmes_e_series)
 
+print(f'Tamanho da playlist: {len(playlist_fim_de_semana)}')
+
 for programa in playlist_fim_de_semana:
     print(programa)
+
+print(f'Está na playlist? {demolidor in playlist_fim_de_semana}')
